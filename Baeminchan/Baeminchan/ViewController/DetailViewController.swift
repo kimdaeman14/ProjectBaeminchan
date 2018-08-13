@@ -75,11 +75,12 @@ extension DetailViewController : UITableViewDataSource {
             
         case 4:
             let cell5 = tableView.dequeueReusableCell(withIdentifier: "DetailImageCell") as! DetailImageCell
+            tableView.rowHeight = 1000
             return cell5
             
         case 5:
             let cell6 = tableView.dequeueReusableCell(withIdentifier: HelpCallCell.reusableIdentifier) as! HelpCallCell
-            tableView.rowHeight = 400
+            tableView.rowHeight = 200
             return cell6
             
         case 6:

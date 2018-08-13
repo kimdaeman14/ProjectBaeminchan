@@ -87,15 +87,15 @@
                                             <outlet property="collectionView" destination="HqS-hP-e8A" id="f6B-Zx-aF1"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="DetailImageCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailImageCell" rowHeight="69" id="CdG-T1-0P0" customClass="DetailImageCell" customModule="Baeminchan" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="173" width="375" height="69"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="DetailImageCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailImageCell" rowHeight="275" id="CdG-T1-0P0" customClass="DetailImageCell" customModule="Baeminchan" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="173" width="375" height="275"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CdG-T1-0P0" id="rtF-ai-8ra">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="274.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TX4-Mb-e87">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="274.5"/>
                                                 </scrollView>
                                             </subviews>
                                             <constraints>
