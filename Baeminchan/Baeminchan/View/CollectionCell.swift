@@ -10,6 +10,15 @@ import UIKit
 
 class CollectionCell: UICollectionViewCell {
 
+    static let reusableIdentifier = "CollectionCell"
+    
+    @IBOutlet weak var detailImage:UIImageView!
+    @IBOutlet weak var label1:UILabel!
+    @IBOutlet weak var label2:UILabel!
+    @IBOutlet weak var label3:UILabel!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
