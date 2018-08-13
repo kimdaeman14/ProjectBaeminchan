@@ -1,5 +1,5 @@
 //
-//  PageControlViewCell.swift
+//  DeliveryInfoCell.swift
 //  Baeminchan
 //
 //  Created by kimdaeman14 on 2018. 8. 14..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageControlViewCell: UITableViewCell {
+class DeliveryInfoCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
