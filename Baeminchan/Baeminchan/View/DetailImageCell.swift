@@ -21,8 +21,8 @@ import UIKit
         
         
         func makeImageData(){
-            for index in 1...10 {
-                let imageName = "main_event_banner" + String(index)
+            for index in 1...4 {
+                let imageName = "banner" + String(index)
                 imageArr.append(UIImage(named: imageName)!)
             }
         }

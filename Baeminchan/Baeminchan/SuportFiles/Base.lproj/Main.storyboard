@@ -19,18 +19,101 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dZk-5F-OvA">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="9gH-g3-DDE">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PageControlCell" rowHeight="75" id="9gH-g3-DDE" customClass="PageControlCell" customModule="Baeminchan" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9gH-g3-DDE" id="MMU-Zr-WQN">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yo-Jv-nUY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
+                                                </scrollView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="6Yo-Jv-nUY" firstAttribute="leading" secondItem="MMU-Zr-WQN" secondAttribute="leading" id="IFW-7d-6RQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="6Yo-Jv-nUY" secondAttribute="trailing" id="ZOp-Y4-4r2"/>
+                                                <constraint firstAttribute="bottom" secondItem="6Yo-Jv-nUY" secondAttribute="bottom" id="dIy-VR-Bsa"/>
+                                                <constraint firstItem="6Yo-Jv-nUY" firstAttribute="top" secondItem="MMU-Zr-WQN" secondAttribute="top" id="g4v-SN-Yml"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="scrollView" destination="6Yo-Jv-nUY" id="fL4-IL-jHn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnotherItemCell" rowHeight="70" id="l0J-Rv-ETc" customClass="AnotherItemCell" customModule="Baeminchan" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="103" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l0J-Rv-ETc" id="pBt-gy-Ozr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HqS-hP-e8A">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wl5-y8-nOX">
+                                                        <size key="itemSize" width="50" height="50"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="a5I-Ok-reO">
+                                                            <rect key="frame" x="0.0" y="10" width="50" height="50"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                            </view>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="l0J-Rv-ETc" id="etY-vT-Fda"/>
+                                                        <outlet property="delegate" destination="l0J-Rv-ETc" id="6EE-ty-Eg6"/>
+                                                    </connections>
+                                                </collectionView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="HqS-hP-e8A" firstAttribute="top" secondItem="pBt-gy-Ozr" secondAttribute="top" id="StZ-wq-lbc"/>
+                                                <constraint firstAttribute="trailing" secondItem="HqS-hP-e8A" secondAttribute="trailing" id="VfR-Cl-2pE"/>
+                                                <constraint firstItem="HqS-hP-e8A" firstAttribute="leading" secondItem="pBt-gy-Ozr" secondAttribute="leading" id="xBt-xn-gg2"/>
+                                                <constraint firstAttribute="bottom" secondItem="HqS-hP-e8A" secondAttribute="bottom" id="xsj-mY-xul"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="collectionView" destination="HqS-hP-e8A" id="f6B-Zx-aF1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="DetailImageCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailImageCell" rowHeight="69" id="CdG-T1-0P0" customClass="DetailImageCell" customModule="Baeminchan" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="173" width="375" height="69"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CdG-T1-0P0" id="rtF-ai-8ra">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TX4-Mb-e87">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                                                </scrollView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="TX4-Mb-e87" secondAttribute="bottom" id="aEc-mu-vzU"/>
+                                                <constraint firstItem="TX4-Mb-e87" firstAttribute="top" secondItem="rtF-ai-8ra" secondAttribute="top" id="aQh-ab-Tvi"/>
+                                                <constraint firstItem="TX4-Mb-e87" firstAttribute="leading" secondItem="rtF-ai-8ra" secondAttribute="leading" id="oUz-jf-8tp"/>
+                                                <constraint firstAttribute="trailing" secondItem="TX4-Mb-e87" secondAttribute="trailing" id="xhP-Ie-kKS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="scrollView" destination="TX4-Mb-e87" id="2MU-4U-MdH"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zhc-H7-MiX"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="L5L-tK-2zv"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,18 +126,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="85K-0z-Rrn"/>
+                    <connections>
+                        <outlet property="tableView" destination="dZk-5F-OvA" id="Iwb-8w-28g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="773"/>
+            <point key="canvasLocation" x="956" y="772.26386806596713"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Gxg-QA-7UF">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E0z-oL-QhR" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="E0z-oL-QhR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EQZ-3M-Ufl">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
