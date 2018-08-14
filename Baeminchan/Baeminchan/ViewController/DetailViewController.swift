@@ -18,6 +18,8 @@ class DetailViewController: UIViewController {
                               "c0420529ceed879acfb2ff88d9dac7ae"
     ]
     
+    var buttonParameter = ""
+    
     @IBOutlet weak var tableView:UITableView!
     
     override func viewDidLoad() {
@@ -34,10 +36,12 @@ class DetailViewController: UIViewController {
 
 
 extension DetailViewController: ListReloadDelegate {
-    func ListReload(){
+    func ListReload(prameter : String){
+        buttonParameter = "\(prameter)"
+        print(buttonParameter)
         print("\n---------- [ 잘되는건가 ? ? ? ] ----------\n")
+        tableView.reloadData()
     }
-    
 }
 
 
@@ -56,7 +60,6 @@ extension DetailViewController : UITableViewDataSource {
             let cell1 = tableView.dequeueReusableCell(withIdentifier: "PageControlCell", for: indexPath) as! PageControlCell
             tableView.rowHeight = 250
             return cell1
-            
         case 1:
             let cell2 = tableView.dequeueReusableCell(withIdentifier: ItemInfoCell.reusableIdentifier, for: indexPath) as! ItemInfoCell
             tableView.rowHeight = 300
@@ -74,9 +77,29 @@ extension DetailViewController : UITableViewDataSource {
             return cell4
             
         case 4:
-            let cell5 = tableView.dequeueReusableCell(withIdentifier: "DetailImageCell") as! DetailImageCell
-            tableView.rowHeight = 1000
-            return cell5
+            switch buttonParameter{
+            case "상세정보" :
+                let cell51 = tableView.dequeueReusableCell(withIdentifier: "DetailImageCell") as! DetailImageCell
+                tableView.rowHeight = 1100
+                return cell51
+            case "후기" :
+                let cell52 = tableView.dequeueReusableCell(withIdentifier: ItemInfoCell.reusableIdentifier) as! ItemInfoCell
+                tableView.rowHeight = 1100
+                return cell52
+            case "문의" :
+                let cell53 = tableView.dequeueReusableCell(withIdentifier: "DetailImageCell") as! DetailImageCell
+                tableView.rowHeight = 1100
+                return cell53
+            case "배송/교환" :
+                let cell54 = tableView.dequeueReusableCell(withIdentifier: ItemInfoCell.reusableIdentifier) as! ItemInfoCell
+                tableView.rowHeight = 1100
+                return cell54
+            default:
+                let cell55 = tableView.dequeueReusableCell(withIdentifier: "DetailImageCell") as! DetailImageCell
+                tableView.rowHeight = 1100
+                return cell55
+            }
+     
             
         case 5:
             let cell6 = tableView.dequeueReusableCell(withIdentifier: HelpCallCell.reusableIdentifier) as! HelpCallCell

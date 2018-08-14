@@ -10,6 +10,9 @@ import UIKit
 
 class DeliveryInfoCell: UITableViewCell {
 
+    static let reusableIdentifier = "DeliveryInfoCell"
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

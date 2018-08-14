@@ -47,6 +47,9 @@
                                 </fragment>
                             </attributedString>
                         </state>
+                        <connections>
+                            <action selector="tapedButton1:" destination="KGk-i7-Jjw" eventType="touchDragInside" id="RYt-G3-TyB"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-mB-Guf">
                         <rect key="frame" x="80.5" y="0.0" width="80" height="46.5"/>
@@ -62,6 +65,9 @@
                                 </fragment>
                             </attributedString>
                         </state>
+                        <connections>
+                            <action selector="tapedButton2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Wgh-hM-J83"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jOO-Uf-i3u">
                         <rect key="frame" x="160.5" y="0.0" width="79" height="46.5"/>
@@ -77,6 +83,9 @@
                                 </fragment>
                             </attributedString>
                         </state>
+                        <connections>
+                            <action selector="tapedButton3:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Vyq-Lv-7sx"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-N7-Vdg">
                         <rect key="frame" x="239.5" y="0.0" width="79.5" height="46.5"/>
@@ -92,6 +101,9 @@
                                 </fragment>
                             </attributedString>
                         </state>
+                        <connections>
+                            <action selector="tapedButton4:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="V9U-QO-6EK"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
