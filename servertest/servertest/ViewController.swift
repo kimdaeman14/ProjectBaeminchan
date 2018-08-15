@@ -13,16 +13,42 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        takeData()
         
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    var products: [Products] = []
+//    {
+//        didSet {
+//            self.collectView.reloadData()
+//        }
+//    }
+ 
+    func takeData(){
+        let url = URL(string: "https://server.yeojin.me/api/products/29")
+        Alamofire.request(url!, method: HTTPMethod.get)
+            .validate(statusCode: 200..<400)
+            .responseData { [weak self] (response) in
+                switch response.result{
+                    case .success(let value):
+                        print(value)
+                        do{
+                            print("1")
+                            self?.products = try JSONDecoder().decode([Products].self, from: value)
+                            print("2")
 
+                        }catch{
+                            print(error.localizedDescription, "success")
+                        }
+                        print(self?.products)
+
+                    case .failure(let error):
+                        print(error, "failure")
+                    }
+        }
+    }
+    
+    
 
 }
 
