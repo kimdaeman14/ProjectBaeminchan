@@ -89,17 +89,18 @@ class DetailMenubarCell: UITableViewCell {
         
     }
     @IBAction private func tapedButton4(_ sender: UIButton){
-        print("taped4")
-        delegate?.ListReload(prameter: "배송/교환")
-        if buttonSelected {
-            buttonSelected = false
-        }else{
-            buttonSelected = true
-            button4.backgroundColor = UIColor(displayP3Red: 0.208, green: 0.757, blue: 0.733, alpha: 1)
-            button1.backgroundColor = UIColor.white
-            button3.backgroundColor = UIColor.white
-            button2.backgroundColor = UIColor.white
-        }
+//        print("taped4")
+//        delegate?.ListReload(prameter: "배송/교환")
+//        if buttonSelected {
+//            buttonSelected = false
+//        }else{
+//            buttonSelected = true
+//            button4.backgroundColor = UIColor(displayP3Red: 0.208, green: 0.757, blue: 0.733, alpha: 1)
+//            button1.backgroundColor = UIColor.white
+//            button3.backgroundColor = UIColor.white
+//            button2.backgroundColor = UIColor.white
+//        }
+        
         
     }
     

@@ -27,6 +27,18 @@
 		A74B6EBE2121F79D009BF77A /* DeliveryInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B6EBC2121F79D009BF77A /* DeliveryInfoCell.swift */; };
 		A74B6EBF2121F79D009BF77A /* DeliveryInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74B6EBD2121F79D009BF77A /* DeliveryInfoCell.xib */; };
 		A74B6EC121220527009BF77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74B6EC021220527009BF77A /* Assets.xcassets */; };
+		A7682FF321249C6800FEE6D3 /* StatusbarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7682FF121249C6800FEE6D3 /* StatusbarCell.swift */; };
+		A7682FF421249C6800FEE6D3 /* StatusbarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7682FF221249C6800FEE6D3 /* StatusbarCell.xib */; };
+		A7682FF721249C8500FEE6D3 /* CartInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7682FF521249C8500FEE6D3 /* CartInfoCell.swift */; };
+		A7682FF821249C8500FEE6D3 /* CartInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7682FF621249C8500FEE6D3 /* CartInfoCell.xib */; };
+		A7682FFF21249CF000FEE6D3 /* InfomationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7682FFD21249CF000FEE6D3 /* InfomationCell.swift */; };
+		A768300021249CF000FEE6D3 /* InfomationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7682FFE21249CF000FEE6D3 /* InfomationCell.xib */; };
+		A768300321249D1900FEE6D3 /* OrderPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A768300121249D1900FEE6D3 /* OrderPriceCell.swift */; };
+		A768300421249D1900FEE6D3 /* OrderPriceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A768300221249D1900FEE6D3 /* OrderPriceCell.xib */; };
+		A768300621249D3D00FEE6D3 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A768300521249D3D00FEE6D3 /* CartViewController.swift */; };
+		A76830092124A08900FEE6D3 /* AllSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76830072124A08900FEE6D3 /* AllSelectCell.swift */; };
+		A768300A2124A08900FEE6D3 /* AllSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76830082124A08900FEE6D3 /* AllSelectCell.xib */; };
+		A768300C2124ACE800FEE6D3 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A768300B2124ACE800FEE6D3 /* CheckBoxButton.swift */; };
 		A77E9D462121F39400B160BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E9D452121F39400B160BB /* AppDelegate.swift */; };
 		A77E9D4B2121F39400B160BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E9D492121F39400B160BB /* Main.storyboard */; };
 		A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E9D4E2121F39500B160BB /* LaunchScreen.storyboard */; };
@@ -54,6 +66,18 @@
 		A74B6EBC2121F79D009BF77A /* DeliveryInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryInfoCell.swift; sourceTree = "<group>"; };
 		A74B6EBD2121F79D009BF77A /* DeliveryInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryInfoCell.xib; sourceTree = "<group>"; };
 		A74B6EC021220527009BF77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../banminchan/collectionPrac/collectionPrac/Assets.xcassets; sourceTree = "<group>"; };
+		A7682FF121249C6800FEE6D3 /* StatusbarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusbarCell.swift; sourceTree = "<group>"; };
+		A7682FF221249C6800FEE6D3 /* StatusbarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusbarCell.xib; sourceTree = "<group>"; };
+		A7682FF521249C8500FEE6D3 /* CartInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartInfoCell.swift; sourceTree = "<group>"; };
+		A7682FF621249C8500FEE6D3 /* CartInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartInfoCell.xib; sourceTree = "<group>"; };
+		A7682FFD21249CF000FEE6D3 /* InfomationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationCell.swift; sourceTree = "<group>"; };
+		A7682FFE21249CF000FEE6D3 /* InfomationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfomationCell.xib; sourceTree = "<group>"; };
+		A768300121249D1900FEE6D3 /* OrderPriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPriceCell.swift; sourceTree = "<group>"; };
+		A768300221249D1900FEE6D3 /* OrderPriceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderPriceCell.xib; sourceTree = "<group>"; };
+		A768300521249D3D00FEE6D3 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A76830072124A08900FEE6D3 /* AllSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSelectCell.swift; sourceTree = "<group>"; };
+		A76830082124A08900FEE6D3 /* AllSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllSelectCell.xib; sourceTree = "<group>"; };
+		A768300B2124ACE800FEE6D3 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 		A77E9D422121F39400B160BB /* Baeminchan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baeminchan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77E9D452121F39400B160BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77E9D4A2121F39400B160BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,8 +100,27 @@
 		A7682FF021249BF500FEE6D3 /* CartView */ = {
 			isa = PBXGroup;
 			children = (
+				A7682FF121249C6800FEE6D3 /* StatusbarCell.swift */,
+				A7682FF221249C6800FEE6D3 /* StatusbarCell.xib */,
+				A76830072124A08900FEE6D3 /* AllSelectCell.swift */,
+				A76830082124A08900FEE6D3 /* AllSelectCell.xib */,
+				A7682FF521249C8500FEE6D3 /* CartInfoCell.swift */,
+				A7682FF621249C8500FEE6D3 /* CartInfoCell.xib */,
+				A7682FFD21249CF000FEE6D3 /* InfomationCell.swift */,
+				A7682FFE21249CF000FEE6D3 /* InfomationCell.xib */,
+				A768300121249D1900FEE6D3 /* OrderPriceCell.swift */,
+				A768300221249D1900FEE6D3 /* OrderPriceCell.xib */,
+				A768300D2124ACF500FEE6D3 /* etcView */,
 			);
 			path = CartView;
+			sourceTree = "<group>";
+		};
+		A768300D2124ACF500FEE6D3 /* etcView */ = {
+			isa = PBXGroup;
+			children = (
+				A768300B2124ACE800FEE6D3 /* CheckBoxButton.swift */,
+			);
+			path = etcView;
 			sourceTree = "<group>";
 		};
 		A77E9D392121F39400B160BB = {
@@ -145,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				A77E9D5B2121F3D500B160BB /* DetailViewController.swift */,
+				A768300521249D3D00FEE6D3 /* CartViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -220,18 +264,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74B6E992121F621009BF77A /* PageControlCell.xib in Resources */,
+				A7682FF421249C6800FEE6D3 /* StatusbarCell.xib in Resources */,
 				A74B6EA12121F644009BF77A /* AnotherItemCell.xib in Resources */,
 				A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */,
 				A74B6EA72121F690009BF77A /* DetailMenubarCell.xib in Resources */,
 				A74B6EAF2121F6E3009BF77A /* SellerInfoCell.xib in Resources */,
 				A74B6E9D2121F631009BF77A /* ItemInfoCell.xib in Resources */,
+				A768300021249CF000FEE6D3 /* InfomationCell.xib in Resources */,
 				A74B6EC121220527009BF77A /* Assets.xcassets in Resources */,
 				A74B6E8D2121F4BF009BF77A /* Default-568h@2x.png in Resources */,
 				A74B6EB72121F731009BF77A /* CollectionCell.xib in Resources */,
+				A768300421249D1900FEE6D3 /* OrderPriceCell.xib in Resources */,
+				A7682FF821249C8500FEE6D3 /* CartInfoCell.xib in Resources */,
 				A74B6EBF2121F79D009BF77A /* DeliveryInfoCell.xib in Resources */,
 				A74B6EAB2121F6B0009BF77A /* HelpCallCell.xib in Resources */,
 				A74B6EBB2121F786009BF77A /* DetailImageCell.xib in Resources */,
 				A77E9D4B2121F39400B160BB /* Main.storyboard in Resources */,
+				A768300A2124A08900FEE6D3 /* AllSelectCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +291,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76830092124A08900FEE6D3 /* AllSelectCell.swift in Sources */,
 				A74B6E9C2121F631009BF77A /* ItemInfoCell.swift in Sources */,
 				A74B6EA62121F690009BF77A /* DetailMenubarCell.swift in Sources */,
 				A74B6EB62121F731009BF77A /* CollectionCell.swift in Sources */,
+				A768300C2124ACE800FEE6D3 /* CheckBoxButton.swift in Sources */,
+				A7682FF321249C6800FEE6D3 /* StatusbarCell.swift in Sources */,
 				A74B6EBE2121F79D009BF77A /* DeliveryInfoCell.swift in Sources */,
 				A74B6EAE2121F6E3009BF77A /* SellerInfoCell.swift in Sources */,
 				A77E9D5C2121F3D500B160BB /* DetailViewController.swift in Sources */,
+				A7682FFF21249CF000FEE6D3 /* InfomationCell.swift in Sources */,
 				A77E9D462121F39400B160BB /* AppDelegate.swift in Sources */,
 				A74B6EA02121F644009BF77A /* AnotherItemCell.swift in Sources */,
+				A7682FF721249C8500FEE6D3 /* CartInfoCell.swift in Sources */,
+				A768300321249D1900FEE6D3 /* OrderPriceCell.swift in Sources */,
+				A768300621249D3D00FEE6D3 /* CartViewController.swift in Sources */,
 				A74B6E982121F621009BF77A /* PageControlCell.swift in Sources */,
 				A74B6EBA2121F786009BF77A /* DetailImageCell.swift in Sources */,
 				A74B6EAA2121F6B0009BF77A /* HelpCallCell.swift in Sources */,
