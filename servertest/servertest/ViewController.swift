@@ -40,12 +40,9 @@ class ViewController: UIViewController {
                             strongSelf.products = pro.productimageSet
                             print("2")
                             print(strongSelf.products)
-
-
                         }catch{
                             print(error.localizedDescription, "success")
                         }
-//                        print(self?.products)
 
                     case .failure(let error):
                         print(error, "failure")
