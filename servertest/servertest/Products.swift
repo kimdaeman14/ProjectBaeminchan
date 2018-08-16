@@ -9,22 +9,38 @@
 import Foundation
 
 
-struct Products : Codable {
-    
+struct Products : Decodable {
+    let id: Int
     let rawname : String
     let description : String
     let thumbnailurl : String
     let saleprice : Int
+    let productimageSet: [ProductimageSet]
     
-//    productimage_set
-    
-    enum CodingKeys: String, CodingKey{
+    enum CodingKeys: String, CodingKey {
+        case id
+        case productimageSet = "productimage_set"
         case rawname = "raw_name"
         case description
         case thumbnailurl = "thumbnail_url"
         case saleprice = "sale_price"
+        
+    }
+    
+    struct ProductimageSet : Decodable {
+        let imageUrl:String
+        
+        enum CodingKeys: String, CodingKey{
+            case imageUrl = "image_url"
+        }
     }
     
 }
+
+
+
+
+
+
 
 

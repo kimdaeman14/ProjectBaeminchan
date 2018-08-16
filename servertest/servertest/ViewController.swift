@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
     }
 
-    var products: [Products] = []
+    var products: [Products.ProductimageSet] = []
 //    {
 //        didSet {
 //            self.collectView.reloadData()
@@ -29,18 +29,23 @@ class ViewController: UIViewController {
         Alamofire.request(url!, method: HTTPMethod.get)
             .validate(statusCode: 200..<400)
             .responseData { [weak self] (response) in
+                guard let strongSelf = self else { return }
                 switch response.result{
                     case .success(let value):
                         print(value)
                         do{
                             print("1")
-                            self?.products = try JSONDecoder().decode([Products].self, from: value)
+                            let pro = try JSONDecoder().decode(Products.self, from: value)
+                            print(pro)
+                            strongSelf.products = pro.productimageSet
                             print("2")
+                            print(strongSelf.products)
+
 
                         }catch{
                             print(error.localizedDescription, "success")
                         }
-                        print(self?.products)
+//                        print(self?.products)
 
                     case .failure(let error):
                         print(error, "failure")
