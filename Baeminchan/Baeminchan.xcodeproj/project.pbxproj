@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73C589121255C580021FA2F /* PayStatusbarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C588F21255C580021FA2F /* PayStatusbarCell.swift */; };
+		A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589021255C580021FA2F /* PayStatusbarCell.xib */; };
+		A73C589521255CC60021FA2F /* PayInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C589321255CC60021FA2F /* PayInfoCell.swift */; };
+		A73C589621255CC60021FA2F /* PayInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589421255CC60021FA2F /* PayInfoCell.xib */; };
+		A73C5899212561A80021FA2F /* PriceInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C5897212561A80021FA2F /* PriceInfoCell.swift */; };
+		A73C589A212561A80021FA2F /* PriceInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C5898212561A80021FA2F /* PriceInfoCell.xib */; };
 		A74B6E8D2121F4BF009BF77A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A74B6E8C2121F4BF009BF77A /* Default-568h@2x.png */; };
 		A74B6E982121F621009BF77A /* PageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B6E962121F621009BF77A /* PageControlCell.swift */; };
 		A74B6E992121F621009BF77A /* PageControlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74B6E972121F621009BF77A /* PageControlCell.xib */; };
@@ -49,6 +55,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A73C588F21255C580021FA2F /* PayStatusbarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStatusbarCell.swift; sourceTree = "<group>"; };
+		A73C589021255C580021FA2F /* PayStatusbarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayStatusbarCell.xib; sourceTree = "<group>"; };
+		A73C589321255CC60021FA2F /* PayInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayInfoCell.swift; sourceTree = "<group>"; };
+		A73C589421255CC60021FA2F /* PayInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayInfoCell.xib; sourceTree = "<group>"; };
+		A73C5897212561A80021FA2F /* PriceInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInfoCell.swift; sourceTree = "<group>"; };
+		A73C5898212561A80021FA2F /* PriceInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceInfoCell.xib; sourceTree = "<group>"; };
 		A74B6E8C2121F4BF009BF77A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A74B6E962121F621009BF77A /* PageControlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlCell.swift; sourceTree = "<group>"; };
 		A74B6E972121F621009BF77A /* PageControlCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlCell.xib; sourceTree = "<group>"; };
@@ -103,6 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73C586C21253F830021FA2F /* PayView */ = {
+			isa = PBXGroup;
+			children = (
+				A73C588F21255C580021FA2F /* PayStatusbarCell.swift */,
+				A73C589021255C580021FA2F /* PayStatusbarCell.xib */,
+				A73C589321255CC60021FA2F /* PayInfoCell.swift */,
+				A73C589421255CC60021FA2F /* PayInfoCell.xib */,
+				A73C5897212561A80021FA2F /* PriceInfoCell.swift */,
+				A73C5898212561A80021FA2F /* PriceInfoCell.xib */,
+			);
+			path = PayView;
+			sourceTree = "<group>";
+		};
 		A7682FF021249BF500FEE6D3 /* CartView */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +141,6 @@
 				A7682FFE21249CF000FEE6D3 /* InfomationCell.xib */,
 				A768300121249D1900FEE6D3 /* OrderPriceCell.swift */,
 				A768300221249D1900FEE6D3 /* OrderPriceCell.xib */,
-				A76830142124D0A900FEE6D3 /* DeliveryView */,
-				A768300D2124ACF500FEE6D3 /* etcView */,
 			);
 			path = CartView;
 			sourceTree = "<group>";
@@ -163,6 +186,9 @@
 				A77E9D592121F3AC00B160BB /* ViewController */,
 				A77E9D582121F3A700B160BB /* View */,
 				A7682FF021249BF500FEE6D3 /* CartView */,
+				A76830142124D0A900FEE6D3 /* DeliveryView */,
+				A73C586C21253F830021FA2F /* PayView */,
+				A768300D2124ACF500FEE6D3 /* etcView */,
 				A77E9D572121F3A000B160BB /* Model */,
 			);
 			path = Baeminchan;
@@ -285,9 +311,12 @@
 				A74B6EA12121F644009BF77A /* AnotherItemCell.xib in Resources */,
 				A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */,
 				A76830132124D0A100FEE6D3 /* DeliveryDayCell.xib in Resources */,
+				A73C589A212561A80021FA2F /* PriceInfoCell.xib in Resources */,
 				A74B6EA72121F690009BF77A /* DetailMenubarCell.xib in Resources */,
 				A74B6EAF2121F6E3009BF77A /* SellerInfoCell.xib in Resources */,
+				A73C589621255CC60021FA2F /* PayInfoCell.xib in Resources */,
 				A74B6E9D2121F631009BF77A /* ItemInfoCell.xib in Resources */,
+				A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */,
 				A768300021249CF000FEE6D3 /* InfomationCell.xib in Resources */,
 				A74B6EC121220527009BF77A /* Assets.xcassets in Resources */,
 				A74B6E8D2121F4BF009BF77A /* Default-568h@2x.png in Resources */,
@@ -315,13 +344,16 @@
 				A74B6EA62121F690009BF77A /* DetailMenubarCell.swift in Sources */,
 				A74B6EB62121F731009BF77A /* CollectionCell.swift in Sources */,
 				A768300C2124ACE800FEE6D3 /* CheckBoxButton.swift in Sources */,
+				A73C5899212561A80021FA2F /* PriceInfoCell.swift in Sources */,
 				A7682FF321249C6800FEE6D3 /* StatusbarCell.swift in Sources */,
+				A73C589121255C580021FA2F /* PayStatusbarCell.swift in Sources */,
 				A74B6EBE2121F79D009BF77A /* DeliveryInfoCell.swift in Sources */,
 				A74B6EAE2121F6E3009BF77A /* SellerInfoCell.swift in Sources */,
 				A768300F2124D06C00FEE6D3 /* DeliveryViewController.swift in Sources */,
 				A77E9D5C2121F3D500B160BB /* DetailViewController.swift in Sources */,
 				A7682FFF21249CF000FEE6D3 /* InfomationCell.swift in Sources */,
 				A77E9D462121F39400B160BB /* AppDelegate.swift in Sources */,
+				A73C589521255CC60021FA2F /* PayInfoCell.swift in Sources */,
 				A74B6EA02121F644009BF77A /* AnotherItemCell.swift in Sources */,
 				A7682FF721249C8500FEE6D3 /* CartInfoCell.swift in Sources */,
 				A768300321249D1900FEE6D3 /* OrderPriceCell.swift in Sources */,

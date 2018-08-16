@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dZk-5F-OvA">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PageControlCell" rowHeight="75" id="9gH-g3-DDE" customClass="PageControlCell" customModule="Baeminchan" customModuleProvider="target">
@@ -115,13 +115,25 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="L5L-tK-2zv"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-xB-OAp">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.72549019609999998" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="장바구니 담기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dZk-5F-OvA" secondAttribute="trailing" id="HXL-MB-TLg"/>
                             <constraint firstItem="dZk-5F-OvA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="J8d-yF-we5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dZk-5F-OvA" secondAttribute="bottom" id="RSs-Jp-pj8"/>
+                            <constraint firstItem="JuN-xB-OAp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M9O-qT-Fyh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JuN-xB-OAp" secondAttribute="bottom" id="P1f-eZ-FSe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dZk-5F-OvA" secondAttribute="bottom" constant="50" id="RSs-Jp-pj8"/>
+                            <constraint firstItem="JuN-xB-OAp" firstAttribute="top" secondItem="dZk-5F-OvA" secondAttribute="bottom" id="snz-CR-vWH"/>
                             <constraint firstItem="dZk-5F-OvA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wsX-Hg-Uxz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JuN-xB-OAp" secondAttribute="trailing" id="xjw-e7-pLb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
