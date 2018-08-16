@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		A73C589121255C580021FA2F /* PayStatusbarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C588F21255C580021FA2F /* PayStatusbarCell.swift */; };
 		A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589021255C580021FA2F /* PayStatusbarCell.xib */; };
-		A73C589521255CC60021FA2F /* PayInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C589321255CC60021FA2F /* PayInfoCell.swift */; };
-		A73C589621255CC60021FA2F /* PayInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589421255CC60021FA2F /* PayInfoCell.xib */; };
+		A73C589521255CC60021FA2F /* ProductInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C589321255CC60021FA2F /* ProductInfoCell.swift */; };
+		A73C589621255CC60021FA2F /* ProductInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589421255CC60021FA2F /* ProductInfoCell.xib */; };
 		A73C5899212561A80021FA2F /* PriceInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C5897212561A80021FA2F /* PriceInfoCell.swift */; };
 		A73C589A212561A80021FA2F /* PriceInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C5898212561A80021FA2F /* PriceInfoCell.xib */; };
 		A74B6E8D2121F4BF009BF77A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A74B6E8C2121F4BF009BF77A /* Default-568h@2x.png */; };
@@ -57,8 +57,8 @@
 /* Begin PBXFileReference section */
 		A73C588F21255C580021FA2F /* PayStatusbarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStatusbarCell.swift; sourceTree = "<group>"; };
 		A73C589021255C580021FA2F /* PayStatusbarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayStatusbarCell.xib; sourceTree = "<group>"; };
-		A73C589321255CC60021FA2F /* PayInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayInfoCell.swift; sourceTree = "<group>"; };
-		A73C589421255CC60021FA2F /* PayInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayInfoCell.xib; sourceTree = "<group>"; };
+		A73C589321255CC60021FA2F /* ProductInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoCell.swift; sourceTree = "<group>"; };
+		A73C589421255CC60021FA2F /* ProductInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductInfoCell.xib; sourceTree = "<group>"; };
 		A73C5897212561A80021FA2F /* PriceInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInfoCell.swift; sourceTree = "<group>"; };
 		A73C5898212561A80021FA2F /* PriceInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceInfoCell.xib; sourceTree = "<group>"; };
 		A74B6E8C2121F4BF009BF77A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -120,8 +120,8 @@
 			children = (
 				A73C588F21255C580021FA2F /* PayStatusbarCell.swift */,
 				A73C589021255C580021FA2F /* PayStatusbarCell.xib */,
-				A73C589321255CC60021FA2F /* PayInfoCell.swift */,
-				A73C589421255CC60021FA2F /* PayInfoCell.xib */,
+				A73C589321255CC60021FA2F /* ProductInfoCell.swift */,
+				A73C589421255CC60021FA2F /* ProductInfoCell.xib */,
 				A73C5897212561A80021FA2F /* PriceInfoCell.swift */,
 				A73C5898212561A80021FA2F /* PriceInfoCell.xib */,
 			);
@@ -314,7 +314,7 @@
 				A73C589A212561A80021FA2F /* PriceInfoCell.xib in Resources */,
 				A74B6EA72121F690009BF77A /* DetailMenubarCell.xib in Resources */,
 				A74B6EAF2121F6E3009BF77A /* SellerInfoCell.xib in Resources */,
-				A73C589621255CC60021FA2F /* PayInfoCell.xib in Resources */,
+				A73C589621255CC60021FA2F /* ProductInfoCell.xib in Resources */,
 				A74B6E9D2121F631009BF77A /* ItemInfoCell.xib in Resources */,
 				A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */,
 				A768300021249CF000FEE6D3 /* InfomationCell.xib in Resources */,
@@ -353,7 +353,7 @@
 				A77E9D5C2121F3D500B160BB /* DetailViewController.swift in Sources */,
 				A7682FFF21249CF000FEE6D3 /* InfomationCell.swift in Sources */,
 				A77E9D462121F39400B160BB /* AppDelegate.swift in Sources */,
-				A73C589521255CC60021FA2F /* PayInfoCell.swift in Sources */,
+				A73C589521255CC60021FA2F /* ProductInfoCell.swift in Sources */,
 				A74B6EA02121F644009BF77A /* AnotherItemCell.swift in Sources */,
 				A7682FF721249C8500FEE6D3 /* CartInfoCell.swift in Sources */,
 				A768300321249D1900FEE6D3 /* OrderPriceCell.swift in Sources */,

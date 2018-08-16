@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PayInfoCell: UITableViewCell {
+class ProductInfoCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
