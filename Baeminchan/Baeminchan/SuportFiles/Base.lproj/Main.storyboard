@@ -122,6 +122,9 @@
                                 <state key="normal" title="장바구니 담기">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="toCartVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jXK-At-fOt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -243,7 +246,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-vP-pXU">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="553"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="EUk-hX-sfv">
@@ -259,13 +262,25 @@
                                     <outlet property="dataSource" destination="lKW-js-42t" id="JC1-dA-IUu"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIE-aT-Xvc">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.72549019609999998" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="결제하기">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="hIE-aT-Xvc" firstAttribute="leading" secondItem="iUQ-Fw-vZx" secondAttribute="leading" id="2PK-R9-H01"/>
                             <constraint firstItem="Wih-vP-pXU" firstAttribute="top" secondItem="iUQ-Fw-vZx" secondAttribute="top" id="4pu-Yf-36h"/>
                             <constraint firstItem="Wih-vP-pXU" firstAttribute="leading" secondItem="iUQ-Fw-vZx" secondAttribute="leading" id="Ctd-VB-pAM"/>
-                            <constraint firstItem="iUQ-Fw-vZx" firstAttribute="bottom" secondItem="Wih-vP-pXU" secondAttribute="bottom" id="HjD-56-dfn"/>
+                            <constraint firstItem="iUQ-Fw-vZx" firstAttribute="bottom" secondItem="Wih-vP-pXU" secondAttribute="bottom" constant="50" id="HjD-56-dfn"/>
                             <constraint firstItem="iUQ-Fw-vZx" firstAttribute="trailing" secondItem="Wih-vP-pXU" secondAttribute="trailing" id="PFs-Xu-CV9"/>
+                            <constraint firstItem="iUQ-Fw-vZx" firstAttribute="bottom" secondItem="hIE-aT-Xvc" secondAttribute="bottom" id="Vez-5b-xyx"/>
+                            <constraint firstItem="iUQ-Fw-vZx" firstAttribute="trailing" secondItem="hIE-aT-Xvc" secondAttribute="trailing" id="vNK-j9-oGD"/>
+                            <constraint firstItem="hIE-aT-Xvc" firstAttribute="top" secondItem="Wih-vP-pXU" secondAttribute="bottom" id="zOm-T0-HX3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iUQ-Fw-vZx"/>
                     </view>
@@ -298,7 +313,7 @@
         <!--Navigation Controller-->
         <scene sceneID="KVN-XG-ziE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Q7z-Tg-sn2" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="toCartVC" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Q7z-Tg-sn2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RsY-8E-6Bn">
                         <autoresizingMask key="autoresizingMask"/>

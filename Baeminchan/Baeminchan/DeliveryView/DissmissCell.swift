@@ -1,19 +1,17 @@
 //
-//  OrderPriceCell.swift
+//  DissmissCell.swift
 //  Baeminchan
 //
-//  Created by kimdaeman14 on 2018. 8. 16..
+//  Created by kimdaeman14 on 2018. 8. 18..
 //  Copyright © 2018년 GoldenShoe. All rights reserved.
 //
 
 import UIKit
 
-class OrderPriceCell: UITableViewCell {
+class DissmissCell: UITableViewCell {
 
-    static let reusableIdentifier = "OrderPriceCell"
+    static let reusableIdentifier = "DissmissCell"
 
- 
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -9,6 +9,14 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    @IBAction private func toCartVC(_ sender: UIButton){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let navigationViewController = storyboard.instantiateViewController(withIdentifier: "toCartVC")
+        navigationViewController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        self.present(navigationViewController, animated: true)
+    }
+    
     let str = "안녕하세요"
     let str2 = "반갑습니다"
     let image = #imageLiteral(resourceName: "c0420529ceed879acfb2ff88d9dac7ae")

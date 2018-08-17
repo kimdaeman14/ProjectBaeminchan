@@ -22,6 +22,8 @@ class CartViewController: UIViewController {
         CartViewTableView.register(UINib(nibName: "CartInfoCell", bundle: nil), forCellReuseIdentifier: CartInfoCell.reusableIdentifier)
         CartViewTableView.register(UINib(nibName: "InfomationCell", bundle: nil), forCellReuseIdentifier: InfomationCell.reusableIdentifier)
         CartViewTableView.register(UINib(nibName: "OrderPriceCell", bundle: nil), forCellReuseIdentifier: OrderPriceCell.reusableIdentifier)
+        CartViewTableView.register(UINib(nibName: "HelpCallCell", bundle: nil), forCellReuseIdentifier: HelpCallCell.reusableIdentifier)
+        CartViewTableView.register(UINib(nibName: "SellerInfoCell", bundle: nil), forCellReuseIdentifier: SellerInfoCell.reusableIdentifier)
         
     }
     
@@ -43,7 +45,7 @@ extension CartViewController: UITableViewDataSource {
             return cell1
         case 1:
             let cell2 = tableView.dequeueReusableCell(withIdentifier: AllSelectCell.reusableIdentifier, for: indexPath) as! AllSelectCell
-            tableView.rowHeight = 50
+            tableView.rowHeight = 60
 
             return cell2
         case 2:
@@ -52,20 +54,28 @@ extension CartViewController: UITableViewDataSource {
             return cell3
         case 3:
             let cell4 = tableView.dequeueReusableCell(withIdentifier: InfomationCell.reusableIdentifier, for: indexPath) as! InfomationCell
-            tableView.rowHeight = 200
+            tableView.rowHeight = 250
 
             return cell4
         case 4:
             let cell5 = tableView.dequeueReusableCell(withIdentifier: OrderPriceCell.reusableIdentifier, for: indexPath) as! OrderPriceCell
             tableView.rowHeight = 300
             return cell5
+        case 5:
+            let cell6 = tableView.dequeueReusableCell(withIdentifier: HelpCallCell.reusableIdentifier, for: indexPath) as! HelpCallCell
+            tableView.rowHeight = 200
+            return cell6
+        case 6:
+            let cell7 = tableView.dequeueReusableCell(withIdentifier: SellerInfoCell.reusableIdentifier, for: indexPath) as! SellerInfoCell
+            tableView.rowHeight = 400
+            return cell7
         default:
             print("fail")
         }
         return cell
     }
     func numberOfSections(in tableView: UITableView) -> Int{
-        return 5
+        return 7
     }
     
 }

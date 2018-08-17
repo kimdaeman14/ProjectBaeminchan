@@ -44,16 +44,16 @@ extension PayViewController : UITableViewDataSource {
             return cell1
         case 1:
             let cell2 = tableView.dequeueReusableCell(withIdentifier: ProductInfoCell.reusableIdentifier, for: indexPath) as! ProductInfoCell
-            tableView.rowHeight = 200
+            tableView.rowHeight = 300
             
             return cell2
         case 2:
             let cell3 = tableView.dequeueReusableCell(withIdentifier: PriceInfoCell.reusableIdentifier, for: indexPath) as! PriceInfoCell
-            tableView.rowHeight = 200
+            tableView.rowHeight = 300
             return cell3
         case 3:
             let cell4 = tableView.dequeueReusableCell(withIdentifier: PayInfoCell.reusableIdentifier, for: indexPath) as! PayInfoCell
-            tableView.rowHeight = 200
+            tableView.rowHeight = 300
             
             return cell4
         case 4:
@@ -62,7 +62,7 @@ extension PayViewController : UITableViewDataSource {
             return cell5
         case 5:
             let cell6 = tableView.dequeueReusableCell(withIdentifier: BasicDestinationCell.reusableIdentifier, for: indexPath) as! BasicDestinationCell
-            tableView.rowHeight = 400
+            tableView.rowHeight = 600
             return cell6
         case 6:
             let cell7 = tableView.dequeueReusableCell(withIdentifier: PayMethodCell.reusableIdentifier, for: indexPath) as! PayMethodCell
@@ -70,7 +70,7 @@ extension PayViewController : UITableViewDataSource {
             return cell7
         case 7:
             let cell8 = tableView.dequeueReusableCell(withIdentifier: AgreementCell.reusableIdentifier, for: indexPath) as! AgreementCell
-            tableView.rowHeight = 50
+            tableView.rowHeight = 150
             return cell8
         default:
             print("fail")

@@ -21,7 +21,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aui-eO-dyw">
-                        <rect key="frame" x="0.0" y="0.0" width="359" height="307.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="325.5"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="결제정보" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzj-SZ-fJp">
                                 <rect key="frame" x="20" y="30" width="59" height="21"/>
@@ -123,7 +123,7 @@
                             <constraint firstItem="mpg-oJ-Ucz" firstAttribute="top" secondItem="k2n-f7-0gR" secondAttribute="bottom" constant="10" id="f3P-wb-4Yr"/>
                             <constraint firstItem="387-Iy-0b4" firstAttribute="top" secondItem="Lzj-SZ-fJp" secondAttribute="bottom" constant="30" id="fVY-as-Rjg"/>
                             <constraint firstItem="uw0-eJ-0sp" firstAttribute="top" secondItem="mpg-oJ-Ucz" secondAttribute="top" id="gLz-qO-dpO"/>
-                            <constraint firstAttribute="width" secondItem="aui-eO-dyw" secondAttribute="height" multiplier="413:354" id="hcK-lu-ajc"/>
+                            <constraint firstAttribute="width" secondItem="aui-eO-dyw" secondAttribute="height" multiplier="413:374" id="hcK-lu-ajc"/>
                             <constraint firstItem="k2n-f7-0gR" firstAttribute="top" secondItem="387-Iy-0b4" secondAttribute="bottom" constant="10" id="iu1-LE-mEV"/>
                             <constraint firstAttribute="trailing" secondItem="kJ4-2l-E6Q" secondAttribute="trailing" constant="20" id="iu2-4r-oyv"/>
                             <constraint firstItem="Lzj-SZ-fJp" firstAttribute="leading" secondItem="aui-eO-dyw" secondAttribute="leading" constant="20" id="mFT-WU-guf"/>
