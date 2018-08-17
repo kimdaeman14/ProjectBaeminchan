@@ -29,6 +29,19 @@ class CartViewController: UIViewController {
     
 }
 
+extension CartViewController: CalenderButtonDelegate {
+    func CalenderButton(){
+        print("\n---------- [ CalenderButtonDelegate ? ? ? ] ----------\n")
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let navigationViewController = storyboard.instantiateViewController(withIdentifier: "toDeliveryVC")
+        navigationViewController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        present(navigationViewController, animated: true)
+        
+    }
+}
+
+
+
 extension CartViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -59,6 +72,7 @@ extension CartViewController: UITableViewDataSource {
             return cell4
         case 4:
             let cell5 = tableView.dequeueReusableCell(withIdentifier: OrderPriceCell.reusableIdentifier, for: indexPath) as! OrderPriceCell
+            cell5.delegate = self
             tableView.rowHeight = 300
             return cell5
         case 5:

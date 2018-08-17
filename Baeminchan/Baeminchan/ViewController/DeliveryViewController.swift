@@ -26,6 +26,17 @@ class DeliveryViewController: UIViewController {
 }
 
 
+extension DeliveryViewController: OrderButtonDelegate {
+    func OrderButton(){
+        print("\n---------- [ CalenderButtonDelegate ? ? ? ] ----------\n")
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let navigationViewController = storyboard.instantiateViewController(withIdentifier: "toPayVC")
+        navigationViewController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        present(navigationViewController, animated: true)
+        
+    }
+}
+
 extension DeliveryViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -41,6 +52,7 @@ extension DeliveryViewController : UITableViewDataSource {
         case 1:
             let cell2 = tableView.dequeueReusableCell(withIdentifier: DeliveryDayCell.reusableIdentifier, for: indexPath) as! DeliveryDayCell
             tableView.rowHeight = 800
+            cell2.delegate = self
             return cell2
         default:
             print("fail")

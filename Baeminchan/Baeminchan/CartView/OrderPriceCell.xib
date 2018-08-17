@@ -44,6 +44,9 @@
                                 <state key="normal" title="희망 배송일 선택하기">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="CalenderButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ta8-bL-VOH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="총 주문금액" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZP-mo-nDK">
                                 <rect key="frame" x="20" y="110" width="69" height="18"/>
