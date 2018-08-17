@@ -10,6 +10,9 @@ import UIKit
 
 class CartInfoCell: UITableViewCell {
 
+    static let reusableIdentifier = "CartInfoCell"
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

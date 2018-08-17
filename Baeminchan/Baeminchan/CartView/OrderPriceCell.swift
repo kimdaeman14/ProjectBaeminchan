@@ -10,6 +10,10 @@ import UIKit
 
 class OrderPriceCell: UITableViewCell {
 
+    static let reusableIdentifier = "OrderPriceCell"
+
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

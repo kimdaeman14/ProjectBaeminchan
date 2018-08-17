@@ -10,6 +10,10 @@ import UIKit
 
 class StatusbarCell: UITableViewCell {
 
+    static let reusableIdentifier = "StatusbarCell"
+
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

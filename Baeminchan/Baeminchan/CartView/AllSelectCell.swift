@@ -10,6 +10,9 @@ import UIKit
 
 class AllSelectCell: UITableViewCell {
 
+    static let reusableIdentifier = "AllSelectCell"
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
