@@ -38,12 +38,10 @@
 		A75A0C8021257572006306A1 /* OrdererCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C7E21257572006306A1 /* OrdererCell.swift */; };
 		A75A0C8121257572006306A1 /* OrdererCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C7F21257572006306A1 /* OrdererCell.xib */; };
 		A75A0C84212575EB006306A1 /* BasicDestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C82212575EB006306A1 /* BasicDestinationCell.swift */; };
-		A75A0C85212575EB006306A1 /* RecentlyDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C83212575EB006306A1 /* RecentlyDestinationCell.xib */; };
 		A75A0C882125762A006306A1 /* PayMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C862125762A006306A1 /* PayMethodCell.swift */; };
 		A75A0C892125762A006306A1 /* PayMethodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C872125762A006306A1 /* PayMethodCell.xib */; };
 		A75A0C8C21257651006306A1 /* AgreementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C8A21257651006306A1 /* AgreementCell.swift */; };
 		A75A0C8D21257651006306A1 /* AgreementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C8B21257651006306A1 /* AgreementCell.xib */; };
-		A75A0C90212578BE006306A1 /* RecentlyDestinationCe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C8E212578BE006306A1 /* RecentlyDestinationCe.swift */; };
 		A75A0C91212578BE006306A1 /* BasicDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C8F212578BE006306A1 /* BasicDestinationCell.xib */; };
 		A75A0C942125793B006306A1 /* ContentsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C922125793B006306A1 /* ContentsViewCell.swift */; };
 		A75A0C952125793B006306A1 /* ContentsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C932125793B006306A1 /* ContentsViewCell.xib */; };
@@ -63,6 +61,8 @@
 		A76830122124D0A100FEE6D3 /* DeliveryDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76830102124D0A100FEE6D3 /* DeliveryDayCell.swift */; };
 		A76830132124D0A100FEE6D3 /* DeliveryDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76830112124D0A100FEE6D3 /* DeliveryDayCell.xib */; };
 		A774168F2126BE0600E84BD2 /* AttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A774168E2126BE0600E84BD2 /* AttributeView.swift */; };
+		A77416922126C56000E84BD2 /* RecentlyDestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77416902126C56000E84BD2 /* RecentlyDestinationCell.swift */; };
+		A77416932126C56000E84BD2 /* RecentlyDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77416912126C56000E84BD2 /* RecentlyDestinationCell.xib */; };
 		A77E9D462121F39400B160BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E9D452121F39400B160BB /* AppDelegate.swift */; };
 		A77E9D4B2121F39400B160BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E9D492121F39400B160BB /* Main.storyboard */; };
 		A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E9D4E2121F39500B160BB /* LaunchScreen.storyboard */; };
@@ -101,12 +101,10 @@
 		A75A0C7E21257572006306A1 /* OrdererCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdererCell.swift; sourceTree = "<group>"; };
 		A75A0C7F21257572006306A1 /* OrdererCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdererCell.xib; sourceTree = "<group>"; };
 		A75A0C82212575EB006306A1 /* BasicDestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDestinationCell.swift; sourceTree = "<group>"; };
-		A75A0C83212575EB006306A1 /* RecentlyDestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentlyDestinationCell.xib; sourceTree = "<group>"; };
 		A75A0C862125762A006306A1 /* PayMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMethodCell.swift; sourceTree = "<group>"; };
 		A75A0C872125762A006306A1 /* PayMethodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayMethodCell.xib; sourceTree = "<group>"; };
 		A75A0C8A21257651006306A1 /* AgreementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementCell.swift; sourceTree = "<group>"; };
 		A75A0C8B21257651006306A1 /* AgreementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgreementCell.xib; sourceTree = "<group>"; };
-		A75A0C8E212578BE006306A1 /* RecentlyDestinationCe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyDestinationCe.swift; sourceTree = "<group>"; };
 		A75A0C8F212578BE006306A1 /* BasicDestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicDestinationCell.xib; sourceTree = "<group>"; };
 		A75A0C922125793B006306A1 /* ContentsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsViewCell.swift; sourceTree = "<group>"; };
 		A75A0C932125793B006306A1 /* ContentsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsViewCell.xib; sourceTree = "<group>"; };
@@ -126,6 +124,8 @@
 		A76830102124D0A100FEE6D3 /* DeliveryDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDayCell.swift; sourceTree = "<group>"; };
 		A76830112124D0A100FEE6D3 /* DeliveryDayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryDayCell.xib; sourceTree = "<group>"; };
 		A774168E2126BE0600E84BD2 /* AttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeView.swift; sourceTree = "<group>"; };
+		A77416902126C56000E84BD2 /* RecentlyDestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyDestinationCell.swift; sourceTree = "<group>"; };
+		A77416912126C56000E84BD2 /* RecentlyDestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentlyDestinationCell.xib; sourceTree = "<group>"; };
 		A77E9D422121F39400B160BB /* Baeminchan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baeminchan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77E9D452121F39400B160BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77E9D4A2121F39400B160BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -160,8 +160,8 @@
 				A75A0C7F21257572006306A1 /* OrdererCell.xib */,
 				A75A0C82212575EB006306A1 /* BasicDestinationCell.swift */,
 				A75A0C8F212578BE006306A1 /* BasicDestinationCell.xib */,
-				A75A0C83212575EB006306A1 /* RecentlyDestinationCell.xib */,
-				A75A0C8E212578BE006306A1 /* RecentlyDestinationCe.swift */,
+				A77416902126C56000E84BD2 /* RecentlyDestinationCell.swift */,
+				A77416912126C56000E84BD2 /* RecentlyDestinationCell.xib */,
 				A75A0C862125762A006306A1 /* PayMethodCell.swift */,
 				A75A0C872125762A006306A1 /* PayMethodCell.xib */,
 				A75A0C8A21257651006306A1 /* AgreementCell.swift */,
@@ -358,11 +358,11 @@
 				A75A0C8121257572006306A1 /* OrdererCell.xib in Resources */,
 				A75A0C91212578BE006306A1 /* BasicDestinationCell.xib in Resources */,
 				A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */,
+				A77416932126C56000E84BD2 /* RecentlyDestinationCell.xib in Resources */,
 				A76830132124D0A100FEE6D3 /* DeliveryDayCell.xib in Resources */,
 				A73C589A212561A80021FA2F /* PriceInfoCell.xib in Resources */,
 				A74B6EA72121F690009BF77A /* DetailMenubarCell.xib in Resources */,
 				A74B6EAF2121F6E3009BF77A /* SellerInfoCell.xib in Resources */,
-				A75A0C85212575EB006306A1 /* RecentlyDestinationCell.xib in Resources */,
 				A73C589621255CC60021FA2F /* ProductInfoCell.xib in Resources */,
 				A74B6E9D2121F631009BF77A /* ItemInfoCell.xib in Resources */,
 				A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */,
@@ -399,7 +399,6 @@
 				A73C5899212561A80021FA2F /* PriceInfoCell.swift in Sources */,
 				A7682FF321249C6800FEE6D3 /* StatusbarCell.swift in Sources */,
 				A73C589121255C580021FA2F /* PayStatusbarCell.swift in Sources */,
-				A75A0C90212578BE006306A1 /* RecentlyDestinationCe.swift in Sources */,
 				A74B6EBE2121F79D009BF77A /* DeliveryInfoCell.swift in Sources */,
 				A74B6EAE2121F6E3009BF77A /* SellerInfoCell.swift in Sources */,
 				A75A0C882125762A006306A1 /* PayMethodCell.swift in Sources */,
@@ -415,6 +414,7 @@
 				A74B6EA02121F644009BF77A /* AnotherItemCell.swift in Sources */,
 				A7682FF721249C8500FEE6D3 /* CartInfoCell.swift in Sources */,
 				A75A0C7C212567B3006306A1 /* PayInfoCell.swift in Sources */,
+				A77416922126C56000E84BD2 /* RecentlyDestinationCell.swift in Sources */,
 				A768300321249D1900FEE6D3 /* OrderPriceCell.swift in Sources */,
 				A768300621249D3D00FEE6D3 /* CartViewController.swift in Sources */,
 				A75A0C84212575EB006306A1 /* BasicDestinationCell.swift in Sources */,
