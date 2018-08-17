@@ -10,6 +10,9 @@ import UIKit
 
 class RecentlyDestinationCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "RecentlyDestinationCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -10,6 +10,9 @@ import UIKit
 
 class AgreementCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "AgreementCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

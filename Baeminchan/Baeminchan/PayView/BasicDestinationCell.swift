@@ -10,6 +10,9 @@ import UIKit
 
 class BasicDestinationCell: UITableViewCell {
 
+    static let reusableIdentifier = "BasicDestinationCell"
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

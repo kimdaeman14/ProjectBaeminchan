@@ -10,6 +10,9 @@ import UIKit
 
 class PayInfoCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "PayInfoCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -10,6 +10,10 @@ import UIKit
 
 class DeliveryDayCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "DeliveryDayCell"
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -10,6 +10,9 @@ import UIKit
 
 class PayStatusbarCell: UITableViewCell {
 
+    static let reusableIdentifier = "PayStatusbarCell"
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

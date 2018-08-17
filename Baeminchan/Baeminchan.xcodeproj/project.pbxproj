@@ -67,6 +67,7 @@
 		A77E9D4B2121F39400B160BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E9D492121F39400B160BB /* Main.storyboard */; };
 		A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E9D4E2121F39500B160BB /* LaunchScreen.storyboard */; };
 		A77E9D5C2121F3D500B160BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E9D5B2121F3D500B160BB /* DetailViewController.swift */; };
+		A7DED71C212701FA00A4033F /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DED71B212701FA00A4033F /* PayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +133,7 @@
 		A77E9D4F2121F39500B160BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77E9D512121F39500B160BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A77E9D5B2121F3D500B160BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A7DED71B212701FA00A4033F /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 				A77E9D5B2121F3D500B160BB /* DetailViewController.swift */,
 				A768300521249D3D00FEE6D3 /* CartViewController.swift */,
 				A768300E2124D06C00FEE6D3 /* DeliveryViewController.swift */,
+				A7DED71B212701FA00A4033F /* PayViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				A77416922126C56000E84BD2 /* RecentlyDestinationCell.swift in Sources */,
 				A768300321249D1900FEE6D3 /* OrderPriceCell.swift in Sources */,
 				A768300621249D3D00FEE6D3 /* CartViewController.swift in Sources */,
+				A7DED71C212701FA00A4033F /* PayViewController.swift in Sources */,
 				A75A0C84212575EB006306A1 /* BasicDestinationCell.swift in Sources */,
 				A74B6E982121F621009BF77A /* PageControlCell.swift in Sources */,
 				A74B6EBA2121F786009BF77A /* DetailImageCell.swift in Sources */,

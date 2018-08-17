@@ -10,6 +10,9 @@ import UIKit
 
 class OrdererCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "OrdererCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

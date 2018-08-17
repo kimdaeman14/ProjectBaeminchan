@@ -10,6 +10,9 @@ import UIKit
 
 class ContentsViewCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "ContentsViewCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

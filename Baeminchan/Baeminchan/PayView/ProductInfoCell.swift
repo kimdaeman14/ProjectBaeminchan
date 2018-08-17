@@ -10,6 +10,9 @@ import UIKit
 
 class ProductInfoCell: UITableViewCell {
 
+    
+    static let reusableIdentifier = "ProductInfoCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
