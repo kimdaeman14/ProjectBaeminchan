@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FFB011E4BFE4BC84529EC2 /* Pods_Baeminchan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04720F278AA7C73B13D125C /* Pods_Baeminchan.framework */; };
 		A73C589121255C580021FA2F /* PayStatusbarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C588F21255C580021FA2F /* PayStatusbarCell.swift */; };
 		A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589021255C580021FA2F /* PayStatusbarCell.xib */; };
 		A73C589521255CC60021FA2F /* ProductInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C589321255CC60021FA2F /* ProductInfoCell.swift */; };
@@ -73,6 +74,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B9C451BCE4582EA7813A6E4 /* Pods-Baeminchan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baeminchan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Baeminchan/Pods-Baeminchan.debug.xcconfig"; sourceTree = "<group>"; };
 		A73C588F21255C580021FA2F /* PayStatusbarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStatusbarCell.swift; sourceTree = "<group>"; };
 		A73C589021255C580021FA2F /* PayStatusbarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayStatusbarCell.xib; sourceTree = "<group>"; };
 		A73C589321255CC60021FA2F /* ProductInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoCell.swift; sourceTree = "<group>"; };
@@ -138,6 +140,8 @@
 		A7A1516D21272FAB0020306C /* DissmissCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DissmissCell.swift; sourceTree = "<group>"; };
 		A7A1516E21272FAB0020306C /* DissmissCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DissmissCell.xib; sourceTree = "<group>"; };
 		A7DED71B212701FA00A4033F /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		B04720F278AA7C73B13D125C /* Pods_Baeminchan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baeminchan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB021F44A526FADC90183A2 /* Pods-Baeminchan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baeminchan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Baeminchan/Pods-Baeminchan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,12 +149,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FFB011E4BFE4BC84529EC2 /* Pods_Baeminchan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0788B6B6BD285C46A93D7522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B9C451BCE4582EA7813A6E4 /* Pods-Baeminchan.debug.xcconfig */,
+				FDB021F44A526FADC90183A2 /* Pods-Baeminchan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A73C586C21253F830021FA2F /* PayView */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +235,8 @@
 				A74B6E8C2121F4BF009BF77A /* Default-568h@2x.png */,
 				A77E9D442121F39400B160BB /* Baeminchan */,
 				A77E9D432121F39400B160BB /* Products */,
+				0788B6B6BD285C46A93D7522 /* Pods */,
+				BE2006746E609F9DC4CF6A0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,6 +318,14 @@
 			path = SuportFiles;
 			sourceTree = "<group>";
 		};
+		BE2006746E609F9DC4CF6A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04720F278AA7C73B13D125C /* Pods_Baeminchan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77E9D542121F39500B160BB /* Build configuration list for PBXNativeTarget "Baeminchan" */;
 			buildPhases = (
+				23D66A2EEF3D5F6931506F60 /* [CP] Check Pods Manifest.lock */,
 				A77E9D3E2121F39400B160BB /* Sources */,
 				A77E9D3F2121F39400B160BB /* Frameworks */,
 				A77E9D402121F39400B160BB /* Resources */,
+				21DD4FF39342C5D78D95EBAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -394,6 +420,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21DD4FF39342C5D78D95EBAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Baeminchan/Pods-Baeminchan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Baeminchan/Pods-Baeminchan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D66A2EEF3D5F6931506F60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baeminchan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A77E9D3E2121F39400B160BB /* Sources */ = {
@@ -574,14 +639,12 @@
 		};
 		A77E9D552121F39500B160BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9C451BCE4582EA7813A6E4 /* Pods-Baeminchan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Baeminchan/SuportFiles/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GoldenShoe.Baeminchan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -591,14 +654,12 @@
 		};
 		A77E9D562121F39500B160BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB021F44A526FADC90183A2 /* Pods-Baeminchan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Baeminchan/SuportFiles/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GoldenShoe.Baeminchan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
