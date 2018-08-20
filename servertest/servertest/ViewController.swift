@@ -17,16 +17,18 @@ class ViewController: UIViewController {
         
     }
 
-    var products: [Products.ProductimageSet] = []
+    var products: [Products.ProductImageSet] = []
 //    {
 //        didSet {
 //            self.collectView.reloadData()
 //        }
 //    }
+    var otherProducts: [Products.RelatedProducts] = []
+
  
     func takeData(){
         let url = URL(string: "https://server.yeojin.me/api/products/29")
-        Alamofire.request(url!, method: HTTPMethod.get)
+                Alamofire.request(url!, method: HTTPMethod.get)
             .validate(statusCode: 200..<400)
             .responseData { [weak self] (response) in
                 guard let strongSelf = self else { return }
@@ -35,11 +37,14 @@ class ViewController: UIViewController {
                         print(value)
                         do{
                             print("1")
-                            let pro = try JSONDecoder().decode(Products.self, from: value)
-                            print(pro)
-                            strongSelf.products = pro.productimageSet
+                            let pro1 = try JSONDecoder().decode(Products.self, from: value)
+                            print(pro1)
+                            strongSelf.products = pro1.productImageSet
+                            strongSelf.otherProducts = pro1.relatedProducts
                             print("2")
                             print(strongSelf.products)
+                            print(strongSelf.otherProducts)
+
                         }catch{
                             print(error.localizedDescription, "success")
                         }
