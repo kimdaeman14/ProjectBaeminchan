@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27FFB011E4BFE4BC84529EC2 /* Pods_Baeminchan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04720F278AA7C73B13D125C /* Pods_Baeminchan.framework */; };
+		A71CCE6A212ACF4B00A8A2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71CCE69212ACF4B00A8A2AB /* Assets.xcassets */; };
 		A73C589121255C580021FA2F /* PayStatusbarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C588F21255C580021FA2F /* PayStatusbarCell.swift */; };
 		A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C589021255C580021FA2F /* PayStatusbarCell.xib */; };
 		A73C589521255CC60021FA2F /* ProductInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C589321255CC60021FA2F /* ProductInfoCell.swift */; };
@@ -33,7 +34,6 @@
 		A74B6EBB2121F786009BF77A /* DetailImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74B6EB92121F786009BF77A /* DetailImageCell.xib */; };
 		A74B6EBE2121F79D009BF77A /* DeliveryInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B6EBC2121F79D009BF77A /* DeliveryInfoCell.swift */; };
 		A74B6EBF2121F79D009BF77A /* DeliveryInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74B6EBD2121F79D009BF77A /* DeliveryInfoCell.xib */; };
-		A74B6EC121220527009BF77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74B6EC021220527009BF77A /* Assets.xcassets */; };
 		A75A0C7C212567B3006306A1 /* PayInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C7A212567B3006306A1 /* PayInfoCell.swift */; };
 		A75A0C7D212567B3006306A1 /* PayInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75A0C7B212567B3006306A1 /* PayInfoCell.xib */; };
 		A75A0C8021257572006306A1 /* OrdererCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A0C7E21257572006306A1 /* OrdererCell.swift */; };
@@ -75,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		0B9C451BCE4582EA7813A6E4 /* Pods-Baeminchan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baeminchan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Baeminchan/Pods-Baeminchan.debug.xcconfig"; sourceTree = "<group>"; };
+		A71CCE69212ACF4B00A8A2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		A73C588F21255C580021FA2F /* PayStatusbarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStatusbarCell.swift; sourceTree = "<group>"; };
 		A73C589021255C580021FA2F /* PayStatusbarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayStatusbarCell.xib; sourceTree = "<group>"; };
 		A73C589321255CC60021FA2F /* ProductInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoCell.swift; sourceTree = "<group>"; };
@@ -100,7 +101,6 @@
 		A74B6EB92121F786009BF77A /* DetailImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailImageCell.xib; sourceTree = "<group>"; };
 		A74B6EBC2121F79D009BF77A /* DeliveryInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryInfoCell.swift; sourceTree = "<group>"; };
 		A74B6EBD2121F79D009BF77A /* DeliveryInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryInfoCell.xib; sourceTree = "<group>"; };
-		A74B6EC021220527009BF77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../banminchan/collectionPrac/collectionPrac/Assets.xcassets; sourceTree = "<group>"; };
 		A75A0C7A212567B3006306A1 /* PayInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayInfoCell.swift; sourceTree = "<group>"; };
 		A75A0C7B212567B3006306A1 /* PayInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayInfoCell.xib; sourceTree = "<group>"; };
 		A75A0C7E21257572006306A1 /* OrdererCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdererCell.swift; sourceTree = "<group>"; };
@@ -311,8 +311,8 @@
 			children = (
 				A77E9D452121F39400B160BB /* AppDelegate.swift */,
 				A77E9D492121F39400B160BB /* Main.storyboard */,
+				A71CCE69212ACF4B00A8A2AB /* Assets.xcassets */,
 				A77E9D4E2121F39500B160BB /* LaunchScreen.storyboard */,
-				A74B6EC021220527009BF77A /* Assets.xcassets */,
 				A77E9D512121F39500B160BB /* Info.plist */,
 			);
 			path = SuportFiles;
@@ -390,6 +390,7 @@
 				A75A0C952125793B006306A1 /* ContentsViewCell.xib in Resources */,
 				A7682FF421249C6800FEE6D3 /* StatusbarCell.xib in Resources */,
 				A74B6EA12121F644009BF77A /* AnotherItemCell.xib in Resources */,
+				A71CCE6A212ACF4B00A8A2AB /* Assets.xcassets in Resources */,
 				A75A0C8121257572006306A1 /* OrdererCell.xib in Resources */,
 				A75A0C91212578BE006306A1 /* BasicDestinationCell.xib in Resources */,
 				A77E9D502121F39500B160BB /* LaunchScreen.storyboard in Resources */,
@@ -402,7 +403,6 @@
 				A74B6E9D2121F631009BF77A /* ItemInfoCell.xib in Resources */,
 				A73C589221255C580021FA2F /* PayStatusbarCell.xib in Resources */,
 				A768300021249CF000FEE6D3 /* InfomationCell.xib in Resources */,
-				A74B6EC121220527009BF77A /* Assets.xcassets in Resources */,
 				A74B6E8D2121F4BF009BF77A /* Default-568h@2x.png in Resources */,
 				A75A0C7D212567B3006306A1 /* PayInfoCell.xib in Resources */,
 				A74B6EB72121F731009BF77A /* CollectionCell.xib in Resources */,
@@ -643,8 +643,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
 				INFOPLIST_FILE = "$(SRCROOT)/Baeminchan/SuportFiles/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = GoldenShoe.Baeminchan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -658,8 +662,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
 				INFOPLIST_FILE = "$(SRCROOT)/Baeminchan/SuportFiles/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = GoldenShoe.Baeminchan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

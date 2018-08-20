@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71CCE6C212AD0C400A8A2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71CCE6B212AD0C400A8A2AB /* Assets.xcassets */; };
 		A7682FDD21248CA400FEE6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7682FDC21248CA400FEE6D3 /* AppDelegate.swift */; };
 		A7682FDF21248CA400FEE6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7682FDE21248CA400FEE6D3 /* ViewController.swift */; };
 		A7682FE221248CA400FEE6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7682FE021248CA400FEE6D3 /* Main.storyboard */; };
-		A7682FE421248CA500FEE6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7682FE321248CA500FEE6D3 /* Assets.xcassets */; };
 		A7682FE721248CA500FEE6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7682FE521248CA500FEE6D3 /* LaunchScreen.storyboard */; };
 		A7682FEF2124920F00FEE6D3 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7682FEE2124920F00FEE6D3 /* Products.swift */; };
 		B694D4A75A5A5DCC5CAF9F47 /* Pods_servertest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E88B7031DB93E526DB68FC /* Pods_servertest.framework */; };
@@ -19,11 +19,11 @@
 /* Begin PBXFileReference section */
 		1BBBC1BEB0D75FDC2600606F /* Pods-servertest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-servertest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-servertest/Pods-servertest.debug.xcconfig"; sourceTree = "<group>"; };
 		86E88B7031DB93E526DB68FC /* Pods_servertest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_servertest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71CCE6B212AD0C400A8A2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		A7682FD921248CA300FEE6D3 /* servertest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = servertest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7682FDC21248CA400FEE6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7682FDE21248CA400FEE6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7682FE121248CA400FEE6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7682FE321248CA500FEE6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7682FE621248CA500FEE6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7682FE821248CA500FEE6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7682FEE2124920F00FEE6D3 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 				A7682FDC21248CA400FEE6D3 /* AppDelegate.swift */,
 				A7682FDE21248CA400FEE6D3 /* ViewController.swift */,
 				A7682FE021248CA400FEE6D3 /* Main.storyboard */,
-				A7682FE321248CA500FEE6D3 /* Assets.xcassets */,
+				A71CCE6B212AD0C400A8A2AB /* Assets.xcassets */,
 				A7682FE521248CA500FEE6D3 /* LaunchScreen.storyboard */,
 				A7682FE821248CA500FEE6D3 /* Info.plist */,
 				A7682FEE2124920F00FEE6D3 /* Products.swift */,
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7682FE721248CA500FEE6D3 /* LaunchScreen.storyboard in Resources */,
-				A7682FE421248CA500FEE6D3 /* Assets.xcassets in Resources */,
+				A71CCE6C212AD0C400A8A2AB /* Assets.xcassets in Resources */,
 				A7682FE221248CA400FEE6D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,6 +26,7 @@ class DetailViewController: UIViewController {
                               "c0420529ceed879acfb2ff88d9dac7ae"
     ]
     
+    
     var buttonParameter = ""
     
     @IBOutlet weak var tableView:UITableView!
